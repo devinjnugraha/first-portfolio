@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Devin Jaya Nugraha</title>
+    <!--Source Sans Pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Work Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="navbar">
+        <a class="logo" href="">DEVIN</a>
+        <ul class="nav_menu">
+          <li>
+            <a id="home_button" class="button" href="#landing_page">HOME</a>
+          </li>
+          <li>
+            <a id="edu_button" class="button" href="#first_content"
+              >EDUCATION</a
+            >
+          </li>
+          <li>
+            <a id="contact_button" class="button" href="#second_content"
+              >CONTACT</a
+            >
+          </li>
+          <li><a id="about_button" class="button" href="#about">ABOUT</a></li>
+        </ul>
+        <div class="burger">
+          <div id="line1"></div>
+          <div id="line2"></div>
+          <div id="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article class="landing_page" id="landing_page">
+        <h1 class="hero text_center">Devin Jaya Nugraha</h1>
+        <p class="text_center">
+          Hai! Nama saya Devin. Saya sedang menjalani program belajar menjadi
+          Front-End Web Developer dari Dicoding untuk membuat website yang
+          menarik!
+        </p>
+      </article>
+      <article class="content first_content" id="first_content">
+        <div class="education_left left_content_split">
+          <h2 class="content_heading_h2">Formal Education</h2>
+          <h3>
+            Universitas Brawijaya •
+            <span class="font_weight_regular">Teknik Informatika</span>
+          </h3>
+          <p class="font_size_smaller">2020 - Present</p>
+          <h3 class="manual_margin_top">
+            SMAN 63 Jakarta • <span class="font_weight_regular">MIPA</span>
+          </h3>
+          <p class="font_size_smaller">2017 - 2020</p>
+        </div>
+        <img src="img/education.jpeg" alt="Education" />
+      </article>
+      <article class="content second_content" id="second_content">
+        <h2 class="content_heading_h2 text_center">Contact</h2>
+        <div class="row_container" id="contact_row">
+          <a href="mailto:devinjn123@gmail.com" target="_blank">
+            <div class="card email">
+              <img src="img/gmail-logo.png" alt="gmail logo" />
+              <p>devinjn123@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/devinjnugraha" target="_blank">
+            <div class="card instagram">
+              <img src="img/instagram-logo.png" alt="" />
+              <p>devinjnugraha</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/devinjnugraha" target="_blank">
+            <div class="card linkedin">
+              <img src="img/linkedin-logo.png" alt="" />
+              <p>devinjnugraha</p>
+            </div>
+          </a>
+          <a href="https://www.github.com/devinjnugraha" target="_blank">
+            <div class="card github">
+              <img src="img/github-logo.png" alt="" />
+              <p>devinjnugraha</p>
+            </div>
+          </a>
+        </div>
+      </article>
+      <aside class="content" id="about">
+        <h2 class="content_heading_h2">About Me</h2>
+        <div class="row_container" id="aside_row">
+          <img src="img/myPhoto.jpg" alt="My Photo" />
+          <div class="column_container" id="biodata">
+            <h4>Nama</h4>
+            <p>Devin Jaya Nugraha</p>
+            <h4>Alamat</h4>
+            <p>Tangerang Selatan, Banten</p>
+            <h4>Usia</h4>
+            <p>18 Tahun</p>
+            <h4>Kesan dan Pesan</h4>
+            <p>
+              Saya seorang mahasiswa yang tertarik pada dunia computer science.
+              Dalam satu bulan ini, saya mempelajari hal baru mengenai
+              pemrograman web. Terima kasih Dicoding! Ini membantu saya dalam
+              menjalani perkuliahan dan learning path Front-End Web Developer.
+            </p>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>2021 &#169; Devin Jaya Nugraha</p>
+  </footer>
+</html>
